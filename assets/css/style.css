@@ -1886,3 +1886,32 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.contact-form {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.contact-illustration {
+  width: 386px; /* Adjust the size as needed */
+  margin-bottom: 40px;
+  margin-left: 203px;
+  border-radius: 18px;
+  
+}
+.contact-button {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(240, 1%, 17%);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: hsl(45, 75%, 51%);
+}
