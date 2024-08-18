@@ -1887,29 +1887,30 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 .contact-form {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   
 }
 
 .contact-illustration {
-  width: 386px; /* Adjust the size as needed */
-  margin-bottom: 40px;
-  margin-left: 203px;
-  border-radius: 18px;
+  width: 100%; /* Ensures responsiveness */
+    max-width: 386px; /* Maximum width for larger screens */
+    margin-bottom: 40px;
+    border-radius: 18px;
   
 }
 .contact-button {
   margin-top: 15px;
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1rem;
-  color: white;
-  background-color: hsl(240, 1%, 17%);
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(240, 1%, 17%);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .contact-button:hover {
